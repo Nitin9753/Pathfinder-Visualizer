@@ -422,12 +422,7 @@ export default class PathfindingVisualizer extends Component {
           onClick={() => this.visualize('Dijkstra')}>
           Dijkstra's
         </button>
-        <button
-          type="button"
-          className="btn btn-primary"
-          onClick={() => this.visualize('AStar')}>
-          A*
-        </button>
+       
         <button
           type="button"
           className="btn btn-primary"
